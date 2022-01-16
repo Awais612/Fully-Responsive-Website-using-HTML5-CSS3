@@ -76,7 +76,7 @@
 #home {
     display: flex;
     flex-direction: column;
-    padding: 3px 180px;
+    padding: 2px 100px;
     margin: 53px;
     height: 226px;
     justify-content: center;
@@ -89,7 +89,7 @@
     position: absolute;
     top: 0px;
     left: 0px;
-    height: 66%;
+    height: 400px;
     width: 100%;
     z-index: -1;
     opacity: 0.89;
@@ -138,7 +138,7 @@
 
 /* Clients Section */
 #client-section {
-    height: 344px;
+    position: relative;
 }
 
 #client-section::before {
